@@ -3,6 +3,7 @@ build/
 */build/
 .idea/
 local.properties
+local.properties.*
 *.iml
 .DS_Store
 captures/
@@ -10,3 +11,7 @@ captures/
 .cxx/
 *.apk
 *.aab
+*.bak
+*.bak_*
+*.bak*
+sistema_seguridad/
