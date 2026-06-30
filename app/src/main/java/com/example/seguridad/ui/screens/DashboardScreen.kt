@@ -1,4 +1,4 @@
-package com.example.seguridad.ui.screens
+﻿package com.example.seguridad.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -45,11 +45,11 @@ fun DashboardScreen(
         Card(modifier = Modifier.fillMaxWidth()) {
             Column(modifier = Modifier.padding(16.dp)) {
                 Text(
-                    text = "Lógica del sistema",
+                    text = "LÃ³gica del sistema",
                     fontWeight = FontWeight.Bold
                 )
                 Text(
-                    text = "La app permite registrar incidencias, analizarlas con IA, guardarlas en Firestore y visualizarlas según el rol del usuario."
+                    text = "La app permite registrar incidencias, analizarlas con IA, guardarlas en Firestore y visualizarlas segÃºn el rol del usuario."
                 )
             }
         }
